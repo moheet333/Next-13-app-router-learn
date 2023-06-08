@@ -77,6 +77,7 @@ export default function ClientPage() {
                 height={250}
                 alt={image.description}
                 className={styles.image}
+                key={image.urls.raw}
               />
             );
           })}
